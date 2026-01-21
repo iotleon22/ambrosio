@@ -6,9 +6,11 @@
   "model": "./Am_bro_sio.tflite",
   "version": 1,
   "micro": {
+    "feature_step_size": 10,
     "probability_cutoff": 0.9,
     "sliding_window_size": 5,
     "tensor_arena_size": 24000
   }
 
 }
+
