@@ -2,15 +2,15 @@
   "type": "micro",
   "wake_word": "Ambrosio",
   "author": "Plecus",
-  "website": "https://www.terra.es/",
-  "model": "./Am_bro_sio.tflite",
-  "version": 1,
+  "model": "Am_bro_sio.tflite",
+  "trained_languages": ["en","es"],
+  "version": 2,
   "micro": {
     "feature_step_size": 10,
-    "probability_cutoff": 0.9,
+    "probability_cutoff": 0.85,
     "sliding_window_size": 5,
-    "tensor_arena_size": 24000
+    "tensor_arena_size": 37000
   }
-
 }
+
 
